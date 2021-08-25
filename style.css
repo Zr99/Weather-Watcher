@@ -1,0 +1,104 @@
+body{
+	margin:0;
+	padding: 0;
+	font-family: sans-serif;
+}
+hr{
+	height: 20px;
+	background-color:rgb(194, 229, 235);
+	border: none;
+}
+#head{
+	font-size: 20px;
+	color: red;
+}
+
+.login{
+	position: absolute;
+	top: 20%;
+	left: 40%;
+	width: 200px;
+	background-color:rgb(194, 229, 235);
+	border-radius: 20px;
+}
+.title{
+	margin: auto;
+	position:static;
+	margin-left: 40%;
+	font-size: 1em;
+}
+.inner{
+	padding: 20px;
+}
+
+.btnLogin{
+	padding: 10px 20px;
+}
+
+#head{
+	display: none;
+}
+
+.container {
+	position: absolute;
+	top: 50%;
+	left: 20%;  
+}
+
+
+th{
+	padding: 8px;
+    text-align: center;
+}
+
+td{
+	padding: 8px;
+    text-align: center;
+}
+
+table, th, td{
+    border: 1px solid black;
+}
+
+tr:nth-child(odd){
+    background-color: rgb(194, 229, 235);
+    
+}
+
+tr:nth-child(even){
+    background-color: rgb(255, 255, 255);
+}
+
+.logout{
+	margin: auto;
+	left: 10%;
+	width: 100px;
+	position:static;
+	background-color:rgb(194, 229, 235);
+	text-align: center;
+	padding: 20px;
+	border-radius: 10px;
+	display: none;
+	cursor: pointer;
+}
+
+.kotak {
+	display: none;
+	position: absolute;
+	left: 40%;
+	
+	  
+}
+
+.towns{
+	margin: auto;
+	left: 80%;
+	width: 80px;
+	position:absolute;
+	background-color:rgb(194, 229, 235);
+	text-align: center;
+	padding: 10px;
+	border-radius: 10px;
+	
+	cursor: pointer;
+}

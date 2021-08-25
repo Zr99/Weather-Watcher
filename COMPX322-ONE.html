@@ -1,0 +1,55 @@
+<!Doctype html>
+<html>
+  <head>
+    <title>
+      Weather Watcher
+	</title>
+	<meta charset="utf-8"/>
+	<link href="style.css" rel="stylesheet" type="text/css">
+	<script src="script.js"></script>
+  </head>
+  <body>
+	  <hr>
+	<div class="title">
+		<p>Welcome,</p>
+		<p id="head">Name</p>
+		<p class="logout" id="lout" onclick="kill_session()">Logout</p>
+		
+	</div>
+	<diV class="kotak" id="kotak">
+
+		<p>Add the town you want:</p>
+		<p class="towns" id="addTown"  onclick="addTowns()">Add Town</p>
+		<select id="towns">
+			<option value="Hamilton">Hamilton</option>
+			<option value="Auckland">Auckland</option>
+			<option value="Christchurch">Christchurch</option>
+			<option value="Wellington">Wellington</option>
+			<option value="Tauranga">Tauranga</option>
+			<option value="Dunedin">Dunedin</option>
+		  </select>
+		  
+  	
+	</diV>
+	<div class="login" id="container">
+		<div class="inner">
+			<h1>Login</h1>
+			<label for="username">Username: </label><br>
+			<input type="text" id ="user" name="username"><br><br>
+			<label for="password">Password: </label><br>
+			<input type="password" id ="pass" name="password"><br><br>
+			<button class="btnLogin" onclick="submit()">Login</button>	
+		</div>
+	</div>
+	<div class="container" id="box">
+		
+	</div>
+	<div class="con" id="box2">
+		
+	</div>
+	<div id="add">
+	</div>
+
+	
+  </body>
+</html>
