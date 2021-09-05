@@ -7,7 +7,7 @@
     $town = $_POST['town'];
     $id=0;
 
-    //I don't know how to link the username and the user ID
+    
     if($use == "Fred"){
         $id=1;
     }
